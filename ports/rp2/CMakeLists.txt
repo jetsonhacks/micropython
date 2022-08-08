@@ -106,6 +106,7 @@ set(MICROPY_SOURCE_PORT
     main.c
     modmachine.c
     modrp2.c
+    modusb_hid.c
     modutime.c
     mphalport.c
     mpnetworkport.c
@@ -133,6 +134,7 @@ set(MICROPY_SOURCE_QSTR
     ${PROJECT_SOURCE_DIR}/machine_wdt.c
     ${PROJECT_SOURCE_DIR}/modmachine.c
     ${PROJECT_SOURCE_DIR}/modrp2.c
+    ${PROJECT_SOURCE_DIR}/modusb_hid.c
     ${PROJECT_SOURCE_DIR}/moduos.c
     ${PROJECT_SOURCE_DIR}/modutime.c
     ${PROJECT_SOURCE_DIR}/rp2_flash.c
