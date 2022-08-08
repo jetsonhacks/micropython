@@ -388,3 +388,4 @@ endforeach()
 
 # Include the main MicroPython cmake rules.
 include(${MICROPY_DIR}/py/mkrules.cmake)
+
